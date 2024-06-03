@@ -31,15 +31,50 @@ body{
     padding-right: 10px;
 
 }
-.About{
-    border: 2px solid #fff;
-    margin: 0px;
-}
+
 .imagehover{
     width: 30px;
     position: absolute;
     background-color: #ff0000;
     top: 100px;
+}
+.bodyy{
+    width: 90%;
+    height: 90vh;
+    background: transparent;
+    border: 1px solid #ffffff;
+    margin-left: 4%;
+    margin-top: 20px;
+    border-radius: 2%;
+    display: inline-block;
+}
+.bodyy>img{
+    box-shadow: 10px 5px 5px white;
+        align-self: center;    
+    border-radius: 50%;
+    width: 15%;
+    height: 5vh;
+    height: auto;
+    z-index: -1;
+    display: inline-block;
+}
+
+.leftpart{
+    top: 20px;
+    left: 0px;
+    border-radius: 2%;
+    height: 6vh;
+    background-color: rgb(109, 202, 187);
+}
+.rightpart{
+    top: 40px;
+    right: 0px;
+    border-radius: 2%;
+    display: inline-block;
+    width: 45%;
+    height: 6vh;
+    background-color: rgb(109, 202, 187);
+    float: right;
 }
 
 
