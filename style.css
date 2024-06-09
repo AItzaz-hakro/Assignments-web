@@ -1,9 +1,14 @@
 @font-face {
-    font-family: ysss;
-    src: url(../Fonts/ysabeau_sx/static/YsabeauSC-Light.ttf);
+    font-family: mainfont;
+    src: url(../../Fonts/static/Quicksand-Medium.ttf);
 }
-*{
+html{
+    scroll-behavior: smooth;
+}
+*{   
     margin: 0%;
+    color: white;
+    font-family: mainfont;
 }
 body{
     background-image: url(Texturelabs_Sky_152M.jpg);
@@ -18,15 +23,58 @@ header{
 header>nav{
     /* margin: 3rem ; */
     justify-self: center;
-    padding-left: 12rem;
+    padding-left: 16rem;
     padding-top:1.5rem;
 
 }
 
 header>nav>a{
     text-decoration: none;
-    color: white;
     font-size: xx-large;
     text-transform: uppercase;
     margin-right: 2rem;
+    }
+
+.hello{
+    transition: all .3s ease;
+    -webkit-transition:all .3s ease;
+   -moz-transition:all .3s ease;
+   -ms-transition:all .3s ease;
+   -o-transition:all .3s ease;
+}
+
+.hello:hover{
+       color: aquamarine ;
+}
+
+.img{
+    margin-left: 10rem;
+    /* position: relative; */
+    display: inline-block;
+    width: 300px;
+}
+.rightmedia{ 
+   text-align:center;
+    display: inline-block; 
+    font-size: xx-large;
+    
+}
+.rightmedia>h4{
+    color: aquamarine;
+}
+.rightmedia>h1>span{
+    color: aquamarine;
+}
+@media only screen and (min-width:1600px) {
+  body{
+    /* background-image: url(user-solid.svg); */
+    align-items: center;
+    width: 800px;
+  }
+}
+
+.page02{
+    padding-top: 20rem;
+    width: 100%;
+    height: 40rem;
 }
