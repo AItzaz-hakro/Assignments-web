@@ -1,0 +1,108 @@
+@font-face {
+    font-family: mainfont;
+    src: url(../../Fonts/static/Quicksand-Medium.ttf);
+}
+html{
+    scroll-behavior: smooth;
+}
+*{   
+    margin: 0%;
+    color: white;
+    font-family: mainfont;
+}
+body{
+    background-image: url(Texturelabs_Sky_152M.jpg);
+}
+
+header{
+    height: 30vh;
+    width: 100%;
+    
+}
+
+header>nav{
+    /* margin: 3rem ; */
+    justify-self: center;
+    padding-left: 16rem;
+    padding-top:1.5rem;
+
+}
+
+header>nav>a{
+    text-decoration: none;
+    font-size: xx-large;
+    text-transform: uppercase;
+    margin-right: 2rem;
+    }
+
+.hello{
+    transition: all .3s ease;
+    -webkit-transition:all .3s ease;
+   -moz-transition:all .3s ease;
+   -ms-transition:all .3s ease;
+   -o-transition:all .3s ease;
+}
+
+.hello:hover{
+       color: aquamarine ;
+}
+
+.img{
+    margin-left: 10rem;
+    /* position: relative; */
+    display: inline-block;
+    width: 300px;
+}
+.rightmedia{ 
+   text-align:center;
+    display: inline-block; 
+    font-size: xx-large;
+    
+}
+.rightmedia>h4{
+    color: aquamarine;
+}
+.rightmedia>h1>span{
+    color: aquamarine;
+}
+@media only screen and (min-width:1600px) {
+  body{
+    /* background-image: url(user-solid.svg); */
+    align-items: center;
+    width: 800px;
+    margin: 0 auto;
+  }
+  header{
+    height: 30vh;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    
+  }
+  header nav a{
+    float: left;
+    padding: 0px;
+
+    font-size:medium;
+  }
+}
+
+.page02 ul {
+    
+    margin-top: 13rem;
+    column-gap: 5rem;
+    row-gap: 3rem;
+   width: 100%;
+   display: flex;
+   flex-wrap: wrap;
+   overflow: visible;
+   
+   
+}
+.page02 ul li {
+   list-style-type: none;
+   width: 15rem;
+   height: 8rem;
+   background-color: white;
+   border: solid 1px yellow;
+}
