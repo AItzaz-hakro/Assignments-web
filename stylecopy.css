@@ -96,13 +96,17 @@ header>nav>a{
    display: flex;
    flex-wrap: wrap;
    overflow: visible;
-   
-   
+    
 }
 .page02 ul li {
    list-style-type: none;
    width: 15rem;
    height: 8rem;
-   background-color: white;
+   /* background-color: white; */
    border: solid 1px yellow;
+}
+.page02 ul li.picture{
+    height: 70%;
+    width: 100%;
+   
 }
