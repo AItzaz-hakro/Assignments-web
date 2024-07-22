@@ -104,8 +104,11 @@ header>nav>a{
    height: 8rem;
    /* background-color: white; */
    border: solid 1px yellow;
+   text-align: center;
 }
 .page02 ul li.picture{
+    
+    background-image: url(Assi.png);
     height: 70%;
     width: 100%;
    
